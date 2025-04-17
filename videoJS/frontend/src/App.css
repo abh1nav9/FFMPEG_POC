@@ -1,0 +1,56 @@
+/* Video.js custom styles */
+.video-js {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.vjs-big-play-centered .vjs-big-play-button {
+  margin-top: -1.5em !important;
+}
+
+/* Video App styles */
+.VideoApp {
+  text-align: center;
+}
+
+.upload-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.video-container {
+  margin-top: 2rem;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quality-selector {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.quality-selector select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.quality-selector select:hover {
+  border-color: #adb5bd;
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
